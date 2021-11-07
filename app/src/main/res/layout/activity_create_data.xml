@@ -98,6 +98,7 @@
                 android:textSize="19sp" />
 
 
+
             <EditText
                 android:id="@+id/editText1"
                 android:layout_width="match_parent"
@@ -115,10 +116,7 @@
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:textSize="15sp"
-
-
                 />
-
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
@@ -129,7 +127,6 @@
                 android:text="ID"
 
                 />
-
 
             <TextView
                 android:id="@+id/textView2"
