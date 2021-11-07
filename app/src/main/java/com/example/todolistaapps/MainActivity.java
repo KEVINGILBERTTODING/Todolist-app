@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 final String selection = daftar[arg2]; //.getItemAtPosition(arg2).toString();
                 final CharSequence[] dialogitem = {"Show Activity", "Update Activity", "Delete Activity"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle("Option");
+                builder.setTitle("Options");
                 builder.setItems(dialogitem, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int item) {
                         switch (item) {

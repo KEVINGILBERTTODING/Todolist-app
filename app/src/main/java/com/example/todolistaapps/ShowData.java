@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ShowData extends AppCompatActivity {
     protected Cursor cursor;
     com.example.todolistaapps.DataHelper dbHelper;
-    Button ton2;
+    ImageButton btn7;
     TextView text1, text2, text3, text4, text5;
 
     @Override
@@ -39,8 +40,8 @@ public class ShowData extends AppCompatActivity {
             text4.setText(cursor.getString(3).toString());
             text5.setText(cursor.getString(4).toString());
         }
-        ton2 = (Button) findViewById(R.id.button1);
-        ton2.setOnClickListener(new View.OnClickListener() {
+        btn7 = (ImageButton) findViewById(R.id.imageButton7);
+        btn7.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {

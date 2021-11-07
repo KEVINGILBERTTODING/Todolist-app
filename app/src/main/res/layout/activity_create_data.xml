@@ -111,6 +111,7 @@
                 android:inputType="number"
                 android:maxLength="10"
                 android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:textSize="15sp"
@@ -153,8 +154,9 @@
                 android:fontFamily="@font/giga_medium"
                 android:hint="Write task name"
                 android:inputType="text"
-                android:maxLength="20"
+                android:maxLength="25"
                 android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:textColor="@color/black"
                 android:textSize="15sp" />
 
@@ -179,6 +181,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/content3"
                 android:clickable="true"
+                android:paddingRight="20dp"
                 android:editable="false"
                 android:focusable="false"
                 android:fontFamily="@font/giga_medium"
@@ -207,6 +210,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_below="@+id/textView4"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/content4"
                 android:gravity="center"
@@ -272,14 +277,14 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/content3"
                 android:fontFamily="@font/giga_medium"
-                android:inputType="text"
-                android:textColor="@color/white"
                 android:hint="Add Description"
-                android:textSize="15sp"
+                android:inputType="text"
+                android:maxLength="100"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
                 android:textColorHint="@color/white"
-
-                android:maxLength="100" />
+                android:paddingRight="20dp"
+                android:textSize="15sp" />
 
 
 
