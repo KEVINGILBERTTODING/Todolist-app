@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-125dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+
+        >
+
+
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="20dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/sf_reg"
+            android:text="TextView"
+
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/sf_reg"
+            android:text="TextView"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/textView2"
+            android:layout_alignLeft="@id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_reg"
+            android:text="TextView"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_alignLeft="@id/textView3"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:fontFamily="@font/sf_reg"
+
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_reg"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignLeft="@+id/TexView03"
+            android:fontFamily="@font/sf_reg"
+            android:text="Alamat" />
+
+
+        <TextView
+            android:id="@+id/TexView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView4"
+            android:layout_alignBottom="@id/textView4"
+            android:layout_alignLeft="@id/TextView04"
+            android:text="Jenis Kelamin"
+            android:fontFamily="@font/sf_reg"
+            />
+
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView3"
+            android:layout_alignBottom="@id/textView3"
+            android:layout_alignLeft="@id/TextView02"
+            android:text="Tanggal Lahir"
+            android:fontFamily="@font/sf_reg"
+            />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView2"
+            android:layout_alignBottom="@id/textView2"
+            android:fontFamily="@font/sf_reg"
+            android:text="Nama" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView1"
+            android:layout_alignBottom="@id/textView1"
+            android:text="ID"
+            android:fontFamily="@font/sf_reg"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView05"
+            android:layout_alignLeft="@+id/TextView05"
+
+            android:layout_marginTop="34dp"
+            android:text="Back" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
