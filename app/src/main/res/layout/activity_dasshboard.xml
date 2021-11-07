@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/giga_medium"
         android:text="Good Morning"
         android:textColor="@color/white"
@@ -26,8 +26,8 @@
         android:layout_height="60dp"
         android:layout_below="@+id/txt1"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="36dp"
         android:src="@drawable/profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -64,7 +64,7 @@
         android:layout_width="0dp"
         android:layout_height="2160dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="1dp"
         android:background="@drawable/content1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,7 +128,7 @@
             android:layout_width="294dp"
             android:layout_height="70dp"
             android:layout_marginStart="51dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="51dp"
             android:src="@drawable/searchbar"
             app:layout_constraintEnd_toEndOf="parent"
@@ -138,15 +138,5 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="20dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/iconbar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
