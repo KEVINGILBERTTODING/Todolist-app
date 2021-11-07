@@ -19,7 +19,7 @@ public class DataHelper extends SQLiteOpenHelper {
         String sql = "create table todo(no integer primary key, title text null, date text null, priority text null, description text null);";
         Log.d("Data", "onCreate: " + sql);
         db.execSQL(sql);
-        sql = "INSERT INTO todo (no, title, date, priority, description) VALUES ('1', 'Kevin Gilbert Toding', '2000-05-11', 'Laki-laki','Toraja Utara');";
+        sql = "INSERT INTO todo (no, title, date, priority, description) VALUES ('1', 'Mengerjakan UTS Mobile', '2021-11-16', 'High','Membuat aplikasi to do list');";
         db.execSQL(sql);
     }
     @Override

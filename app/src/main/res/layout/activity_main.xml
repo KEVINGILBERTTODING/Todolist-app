@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="52dp"
-        android:fontFamily="@font/giga_regular"
+        android:fontFamily="@font/giga_medium"
         android:text="Good Morning"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -86,7 +86,7 @@
         android:fontFamily="@font/giga_bold"
         android:text="Complete this task"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="19sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -100,7 +100,7 @@
         android:fontFamily="@font/giga_bold"
         android:text="For a better life"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="19sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
