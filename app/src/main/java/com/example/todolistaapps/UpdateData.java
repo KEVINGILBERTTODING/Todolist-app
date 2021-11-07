@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -22,6 +23,7 @@ public class UpdateData extends AppCompatActivity {
     protected Cursor cursor;
     com.example.todolistaapps.DataHelper dbHelper;
     Button ton1, ton2;
+    ImageButton btn5, btn6;
     EditText text1, text2, text3, text4, text5;
     Calendar myCalendar;
     DatePickerDialog.OnDateSetListener date;
@@ -55,8 +57,9 @@ public class UpdateData extends AppCompatActivity {
             rgjk.getCheckedRadioButtonId();
             text5.setText(cursor.getString(4).toString());
         }
-        ton1 = (Button) findViewById(R.id.button1);
-        ton2 = (Button) findViewById(R.id.button2);
+        btn5= (ImageButton) findViewById(R.id.imageButton5);
+        btn6= (ImageButton) findViewById(R.id.imageButton7);
+
 
 
         date = new DatePickerDialog.OnDateSetListener() {
@@ -83,7 +86,7 @@ public class UpdateData extends AppCompatActivity {
             }
         });
         // daftarkan even onClick pada btnSimpan
-        ton1.setOnClickListener(new View.OnClickListener() {
+        btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
                 int checkedButtonId = rgjk.getCheckedRadioButtonId();
@@ -103,7 +106,7 @@ public class UpdateData extends AppCompatActivity {
                 finish();
             }
         });
-        ton2.setOnClickListener(new View.OnClickListener() {
+        btn6.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {

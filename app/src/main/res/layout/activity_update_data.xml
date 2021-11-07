@@ -25,7 +25,7 @@
 
         android:layout_marginTop="25dp"
         android:layout_marginEnd="30dp"
-        android:background="@drawable/btn_save"
+        android:background="@drawable/btn_update"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -132,8 +132,7 @@
                 android:maxLength="20"
                 android:paddingLeft="20dp"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -153,17 +152,17 @@
                 android:layout_height="45dp"
                 android:layout_below="@id/textView3"
                 android:layout_alignLeft="@id/textView3"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/content3"
                 android:clickable="true"
-                android:textColor="@color/white"
-                android:hint="Date"
-                android:textColorHint="@color/white"
-                android:fontFamily="@font/giga_medium"
-                android:paddingLeft="20dp"
+                android:textSize="15sp"
                 android:editable="false"
                 android:focusable="false"
-                android:layout_marginTop="10dp"
-                />
+                android:fontFamily="@font/giga_medium"
+                android:hint="Date"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -252,27 +251,6 @@
                 />
 
 
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/editText5"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="15dp"
-                android:fontFamily="@font/sf"
-                android:text="Update" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Back"
-                android:layout_alignParentBottom="true"
-                android:layout_alignRight="@+id/editText5"
-                android:layout_alignEnd="@+id/editText5"
-                android:fontFamily="@font/sf"
-                android:layout_marginBottom="15dp"
-                />
         </RelativeLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
