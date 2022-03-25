@@ -1,2 +1,2 @@
 # Todolist-app
-Membuat aplikasi to do list app dengan menggunakan android studio
+Aplikasi android Todolist untuk mencatat list kegiatan dalam sehari, menggunakan database SQLite
